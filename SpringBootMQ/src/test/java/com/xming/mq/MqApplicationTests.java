@@ -43,7 +43,7 @@ public class MqApplicationTests {
     // topic 动态路由  订阅模式
     @Test
     public void testTopic(){
-        rabbitTemplate.convertAndSend("topics","order.save","xming.save 路由消息");
+        rabbitTemplate.convertAndSend("topics","order.save","xming.save 路由消息 ");
     }
 
 
